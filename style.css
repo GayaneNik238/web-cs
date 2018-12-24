@@ -1,0 +1,1143 @@
+*{
+}
+
+.case-studies{
+	width: 100%;
+	height: 100%;
+}
+.case-studies-title{
+	font-size: 40px;
+	color: #234a74;
+	letter-spacing: 0px;
+	text-align: center;
+	font-weight: 400;
+}
+.case-studies-description{
+	font-size: 15px;
+	color: grey;
+	text-align: center;
+}
+.line{
+	width: 1032px;
+	height: 944px;
+	margin: auto;
+	position: relative;
+}
+.trymeet{
+	width: 510px;
+	height:466px;
+	background-color: #f5f5f7;
+	background-image: url(../img/trymeet-greyscale.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:50%;
+	border: 1px #ececec solid;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.trymeet:hover{
+	background-image: url(../img/trymeet.svg);
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;	
+	background-color: #4b5167;
+	transition-duration: 0.4s;
+}
+.yapapp{
+	width: 510px;
+	height:466px;
+	background-color: #f5f5f7;
+	background-image: url(../img/yapapp-greyscale.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:50%;
+	border: 1px #ececec solid;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.yapapp:hover{
+	background-image: url(../img/yapapp.svg);
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;	
+	background-color: #377bdd;
+	transition-duration: 0.4s;
+}
+.vone{
+	width: 510px;
+	height:466px;
+	background-color: #f5f5f7;
+	background-image: url(../img/vone-greyscale.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:50%;
+	border: 1px #ececec solid;
+	margin-right: 6px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.vone:hover{
+	background-image: url(../img/vone.svg);
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;	
+	background-color: #f4f5f6;
+	transition-duration: 0.4s;
+}
+.kitkeys{
+	width: 510px;
+	height:466px;
+	background-color: #f5f5f7;
+	background-image: url(../img/kitkeys-greyscale.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:50%;
+	border: 1px #ececec solid;
+	margin-left: 6px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.kitkeys:hover{
+	background-image: url(../img/kitkeys.svg);
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;	
+	background-color: #353741;
+	transition-duration: 0.4s;
+}
+.projects{
+	height: 100%;
+	width: 100%;
+	margin-top: 20px;
+}
+.project-line{
+	height: 200px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.project{
+	width: 25%;
+	height: 200px;
+}
+.inlobby{
+	background-image: url(../img/inlobby.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80%;
+}
+.tomsarkgh{
+	background-image: url(../img/tomsarkgh.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80%;
+}
+.roostwise{
+	background-image: url(../img/roostwise.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80%;
+}
+.betconstruct{
+	background-image: url(../img/betconstruct.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80%;
+}
+.dalma{
+	background-image: url(../img/dalma.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70%;
+}
+.coachsulting{
+	background-image: url(../img/coachsulting.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80%;
+}
+.zappix{
+	background-image: url(../img/zappixblack.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+.bottom{
+	border-bottom: 1px #ececec solid;
+}
+.right{
+	border-right: 1px #ececec solid;
+}
+.header{
+	height: 90px;
+	width: 100%;
+	position: relative;
+}
+.header .logo{
+	position: absolute;
+	height: 90px;
+	width: 139px;
+	margin-left: 15%;
+	background-image: url(../img/logo.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 120%;
+}
+/*.menu-right{
+	float: right;
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+.menu-right ul{
+	list-style: none;
+	display: block;
+}
+.item{
+
+  
+}
+.item:hover{
+	color: #ffb40c;
+	border-bottom: 3px solid #ffb40c;
+	transition: 0.2s ease;
+}
+*/
+#trymeet-container .bg{
+	height: 444px;
+	width: 100%;
+	background-color: #4b5167;
+	position: relative;
+}
+#trymeet-container .bg .cs-logo{
+	height: 60px;
+	width: 220px;
+	background-image: url(../img/trymeet.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	left: 21%;
+	top: 50px;
+}
+#trymeet-container .bg .bg-text{
+	position: absolute;
+	top: 33%;
+	left: 20%;
+	color: white;
+	font-size: 20px;
+}
+#trymeet-container .bg .bg-text2{
+	position: absolute;
+	top: 58%;
+	left: 25%;
+	color: white;
+	font-size: 20px;
+}
+#trymeet-container .bg .apple{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 23%;
+	top: 71%;
+	background-image: url(../img/appstore.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#trymeet-container .bg .google{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 32%;
+	top: 71%;
+	background-image: url(../img/googleplay.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 99%;
+}
+#trymeet-container .bg .device{
+	height: 100%;
+	width: 35%;
+	background-image: url(../img/phones.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	right:0%;
+	top: 0%;
+}
+.overview{
+	height: 100%;
+	width: 1170px;
+	margin: auto;
+	padding-left: 0;
+	margin-bottom: 5%;
+	color: grey;
+}
+.overview-title{
+	color: #234a74;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 1%;
+}
+.overview-text{
+	font-size: 20px;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: grey;
+
+}
+.overview-list {
+	font-size: 20px;
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.development{
+	height: 300px;
+	width: 1170px;
+	margin: auto;
+	position: relative;
+	background-color: grey;
+}
+.process-one{
+	width: 350px;
+	border: 1px solid #4b5167;
+	word-wrap: break-word;
+	color: grey;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.process-two{
+	width: 350px;
+	border: 1px solid #4b5167;
+	word-wrap: break-word;
+	color: grey;
+	position: absolute;
+	top: 0;
+	left: 415px;
+}
+.process-three{
+	width: 350px;
+	border: 1px solid #4b5167;
+	word-wrap: break-word;
+	color: grey;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.process-one:hover{
+	box-shadow: 0px 5px 15px 0px;
+	transition: 0.5s;
+}
+.team{
+	height: 130px;
+	width: 70%;
+	background-image: url(../img/project-team.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 30%;
+	margin: auto;
+}
+.client{
+	height: 130px;
+	width: 70%;
+	background-image: url(../img/client.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 30%;
+	margin: auto;
+}
+.time{
+	height: 130px;
+	width: 70%;
+	background-image: url(../img/given-time.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 30%;
+	margin: auto;
+}
+.process-team{
+	text-align: center;
+	font-weight: 600;
+}
+/*
+.technologies{
+	height: 800px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+
+}*/
+.technologies .tech{
+	color: #234a74;
+	font-size: 40px;
+	text-align: center;
+}
+.list{
+	width: 1170px;
+	height: 220px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	background-color: grey;
+}
+.box{
+	height: 200px;
+	width: 23%;
+	margin-left: 2%;
+	margin-right: 2%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.html{
+	background-image: url(../img/html.svg);
+	background-size: 55%;
+}
+.java{
+	background-image: url(../img/java.svg);
+	background-size: 60%;	
+}
+.js{
+	background-image: url(../img/js.png);
+	background-size: 90%;
+}
+.swift{
+	background-image: url(../img/swift.svg);
+	background-size: 55%;
+}
+.node{
+	background-image: url(../img/node.svg);
+	background-size: 55%;
+}
+.react{
+	background-image: url(../img/react.png);
+	background-size: cover;
+}
+.native{
+	background-image: url(../img/native.png);
+	background-size: cover;
+}
+.bootstrap{
+	background-image: url(../img/bootstrap_0.png);
+	background-size: 50%;
+}
+.react{
+	background-image: url(../img/react.png);
+	background-size: 75%;
+}
+.native{
+	background-image: url(../img/native.png);
+	background-size: 70%;
+}
+.postgre{
+	background-image: url(../img/psql.png);
+	background-size: 60%;
+}
+.redis{
+	background-image: url(../img/redis.png);
+	background-size: 100%;
+}
+.ec2{
+	background-image: url(../img/ec2.png);
+	background-size: 85%;
+}	
+.elb{
+	background-image: url(../img/elb_logo.png);
+	background-size: 100%;
+}
+.r53{
+	background-image: url(../img/route.png);
+	background-size: 90%;
+}
+.elasticache{
+	background-image: url(../img/elas.png);
+	background-size: 150%;
+}
+.rds{
+	background-image: url(../img/rds.png);
+	background-size: 80%;
+}
+.mongo{
+	background-image: url(../img/mongodb.png);
+	background-size: 80%;
+}
+.angular{
+	background-image: url(../img/angular.svg);
+	background-size: 40%;
+}
+.dynamo{
+	background-image: url(../img/dynamo.png);
+	background-size: 60%;
+}
+.cpp {
+	background-image: url(../img/c++.png);
+	background-size: 50%;
+}
+.sqlite{
+	background-image: url(../img/sqlite.png);
+	background-size: 55%;
+}
+.aiml{
+	background-image: url(../img/ai.png);
+	background-size: 60%;
+}
+.quote{
+	height: 100%;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-radius: 15px;
+	background-color: #ececec;
+	text-align: center;
+	position: relative;
+	color: grey;
+}
+.quote-text{
+	padding-top: 3%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+}
+
+.fa-quote-left{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: grey;
+}
+.fa-quote-right{
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
+	color: grey;
+}
+.quote-people{
+	text-align: center;
+	bottom: 7%;
+}
+#yapapp-container .bg{
+	height: 444px;
+	width: 100%;
+	/*background-color: rgb(70,136,239);*/
+	background-color: #377bdd;
+	position: relative;
+}
+#yapapp-container .bg .cs-logo{
+	height: 60px;
+	width: 60px;
+	background-image: url(../img/yap.app.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80%;
+	position: absolute;
+	left: 20%;
+	top: 65px;
+}
+#yapapp-container .bg .bg-title{
+	position: absolute;
+	left: 26%;
+	top: 70px;
+	color: white;
+}
+#yapapp-container .bg .bg-title{
+	position: absolute;
+	left: 26%;
+	top: 70px;
+	color: white;
+	font-weight: 400;
+}
+#yapapp-container .bg .bg-text{
+	position: absolute;
+	top: 33%;
+	left: 20%;
+	color: white;
+	font-size: 20px;
+}
+#yapapp-container .bg .bg-text2{
+	position: absolute;
+	top: 58%;
+	left: 25%;
+	color: white;
+	font-size: 20px;
+}
+#yapapp-container .bg .apple{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 23%;
+	top: 71%;
+	background-image: url(../img/appstore.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#yapapp-container .bg .google{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 32%;
+	top: 71%;
+	background-image: url(../img/googleplay.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 99%;
+}
+#yapapp-container .bg .device{
+	height: 320px;
+	width: 280px;
+	background-image: url(../img/devices.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	right: 10%;
+	top: 8%;
+}
+#yapapp-container .process{
+	border: 1px solid rgb(70,136,239);
+
+}
+#vone-container .bg{
+	height: 444px;
+	width: 100%;
+	background-color: rgb(55,84,128);
+	position: relative;
+}
+
+#vone-container .bg .cs-logo{
+	height: 130px;
+	width: 200px;
+	background-image: url(../img/vone.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 95%;
+	position: absolute;
+	left: 22%;
+	top: 35px;
+}
+#vone-container .bg .bg-title{
+	position: absolute;
+	left: 26%;
+	top: 70px;
+	color: white;
+	font-weight: 400;
+}
+#vone-container .bg .bg-text2{
+	position: absolute;
+	top: 58%;
+	left: 23%;
+	color: white;
+	font-size: 20px;
+}
+#vone-container .bg .apple{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 23%;
+	top: 71%;
+	background-image: url(../img/appstore.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#vone-container .bg .google{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 32%;
+	top: 71%;
+	background-image: url(../img/googleplay.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 99%;
+}
+#vone-container .bg .device{
+	height: 320px;
+	width: 280px;
+	background-image: url(../img/devices.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	right: 10%;
+	top: 8%;
+}
+#vone-container .process{
+	border: 1px solid rgb(55,84,128);
+}
+#kitkeys-container .bg{
+	height: 444px;
+	width: 100%;
+	background-color: #353741;
+	position: relative;
+}
+#kitkeys-container .bg .cs-logo{
+	height: 70px;
+	width: 270px;
+	background-image: url(../img/kitkeys.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 90%;
+	position: absolute;
+	left: 20%;
+	top: 65px;
+}
+#kitkeys-container .bg .bg-text{
+	position: absolute;
+	top: 33%;
+	left: 22%;
+	color: white;
+	font-size: 20px;
+}
+#kitkeys-container .bg .bg-text2{
+	position: absolute;
+	top: 58%;
+	left: 25%;
+	color: white;
+	font-size: 20px;
+}
+#kitkeys-container .bg .apple{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 27%;
+	top: 71%;
+	background-image: url(../img/appstore.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#kitkeys-container .bg .device{
+	height: 320px;
+	width: 280px;
+	background-image: url(../img/devices.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	right: 10%;
+	top: 8%;
+}
+#kitkeys-container .process{
+	border: 1px solid #353741;
+}
+#kitkeys-container .technologies {
+	height: 220px;
+	margin-bottom: 60px;
+}
+@media screen and (max-width: 1200px) and (min-width: 992px){
+	.line {
+		width: 780px;
+		height: 780px;
+	}
+	.trymeet{
+		width: 384px;
+		height: 384px;
+	}
+	.yapapp{
+		width: 384px;
+		height: 384px;
+	}
+	.vone{
+		width: 384px;
+		height: 384px;
+	}
+	.kitkeys{
+		width: 384px;
+		height: 384px;
+	}
+	#trymeet-container .development{
+		width: 990px;
+	}
+	#trymeet-container .process-one{
+		width: 310px;
+	}
+	#trymeet-container .process-two{
+		width: 310px;
+	}
+	#trymeet-container .process-three{
+		width: 310px;
+	}
+	#trymeet-container .technologies{
+		width: 600px;
+	}
+	#trymeet-container .overview{
+		width: 990px;
+	}
+	#trymeet-container .bg{
+		width: 990px;
+	}
+
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+	.line{
+		width: 700px;
+		height: 700px;
+	}
+	.trymeet{
+		width: 344px;
+		height: 344px;
+	}
+	.yapapp{
+		width: 344px;
+		height: 344px;
+	}
+	.vone{
+		width: 344px;
+		height: 344px;
+	}
+	.kitkeys{
+		width: 344px;
+		height: 344px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.line {
+		width: 100%;
+		position: relative;
+		height: 1240px;
+		margin-bottom: 20px;
+		background-color: grey;
+	}
+	.trymeet{
+		width: 100%;
+		position: relative;
+		height: 300px;
+		margin-bottom: 13px;
+	}
+	.yapapp{
+		width: 100%;
+		position: relative;
+		height: 300px;
+		margin-bottom: 13px;
+	}
+	.vone{
+		width: 100%;
+		position: relative;
+		height: 300px;
+		margin-bottom: 13px;
+	}
+	.kitkeys{
+		width: 100%;
+		position: relative;
+		height: 300px;
+		margin-bottom: 13px;
+		margin-left: 0px;
+	}
+	#trymeet-container .development{
+		position: relative;
+		height: 900px;
+		width: 100%;
+	}
+	#trymeet-container .development .process{
+		position: relative;
+		height: 300px;
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+/*
+@media screen and (max-width: 768px){
+	.container{
+		height: 662px;
+	}
+	.trymeet{
+		width: 100%;
+	}
+	.yapapp{
+		width: 100%;
+	}
+	.vone{
+		width: 100%;
+	}
+	.kitkeys{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 992px) and (min-width: 652px){
+	#trymeet-container .bg .cs-logo{
+		left: 10%;
+	}
+	#trymeet-container .bg .bg-text{
+		left: 10%;
+	}
+	#trymeet-container .bg .bg-text2{
+		left: 16%;
+	}
+	#trymeet-container .bg .apple{
+		left: 15%;
+	}
+	#trymeet-container .bg .google{
+		left: 25%;
+	}
+	#trymeet-container .bg .device{
+		right: 10%;
+	}
+	#trymeet-container .overview {
+		text-align: center;
+	}
+	#trymeet-container .development .process{
+		width: 100%;
+		margin-bottom: 2%;
+	}	
+	#yapapp-container .bg .cs-logo{
+		left: 10%;
+	}
+	#yapapp-container .bg .bg-text{
+		left: 10%;
+	}
+	#yapapp-container .bg .bg-text2{
+		left: 16%;
+	}
+	#yapapp-container .bg .bg-title{
+		left: 20%;
+	}
+	#yapapp-container .bg .apple{
+		left: 15%;
+	}
+	#yapapp-container .bg .google{
+		left: 25%;
+	}
+	#yapapp-container .bg .device{
+		right: 5%;
+	}
+	#vone-container .bg .cs-logo{
+		left: 10%;
+	}
+	#vone-container .bg .bg-text{
+		left: 13%;
+	}
+	#vone-container .bg .bg-text2{
+		left: 14%;
+	}
+	#vone-container .bg .bg-title{
+		left: 20%;
+	}
+	#vone-container .bg .apple{
+		left: 15%;
+	}
+	#vone-container .bg .google{
+		left: 25%;
+	}
+	#vone-container .bg .device{
+		right: 5%;
+	}
+	#kitkeys-container .bg .cs-logo{
+		left: 7%;
+	}
+	#kitkeys-container .bg .bg-text{
+		left: 10%;
+	}
+	#kitkeys-container .bg .bg-text2{
+		left: 15%;
+	}
+	#kitkeys-container .bg .bg-title{
+		left: 20%;
+	}
+	#kitkeys-container .bg .apple{
+		left: 18%;
+	}
+	#kitkeys-container .bg .device{
+		right: 5%;
+	}
+	#trymeet-container .development{
+		width: 500px;
+		height: 900px;
+		display: grid;
+		margin: auto;
+		background-color: red;
+	}
+	#trymeet-container .development .process{
+		background-color: grey;
+		width: 500px;
+	}
+}
+@media screen and (max-width: 652px) and (min-width: 611px){
+	#trymeet-container .bg .device{
+		right: 1%;
+		width: 200px;
+	}
+	#trymeet-container .bg .cs-logo{
+		left: 5%;
+	}
+	#trymeet-container .bg .bg-text{
+		left: 5%;
+	}
+	#trymeet-container .bg .bg-text2{
+		left: 17%;
+	}
+	#trymeet-container .bg .apple{
+		left: 13%;
+	}
+	#trymeet-container .overview{
+		text-align: center;
+	}
+	#yapapp-container .bg .device{
+		right: 0%;
+	}
+	#vone-container .bg .device{
+		right: 0%;
+	}
+	#kitkeys-container .bg .device{
+		right: 0%;
+	}
+	#kitkeys-container .bg .cs-logo{
+		left: 5%;
+	}
+	#trymeet-container .development{
+		width: 100%;
+		height: 900px;
+		display: grid;
+		margin: auto;
+		background-color: red;
+	}
+	#trymeet-container .development .process{
+		background-color: grey;
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 610px){
+	#trymeet-container .bg .cs-logo{
+		top: 10%;
+		left: 25%
+	}
+	#trymeet-container .bg .bg-text{
+		top: 38%;
+		left: 23%;
+	}
+	#trymeet-container .bg .bg-text2{
+		top: 48%;
+		left: 37%;
+	}
+	#trymeet-container .bg .apple{
+		bottom: 10%;
+		left: 30%;
+	}
+	#trymeet-container .bg .google{
+		bottom: 10%;
+		left: 60%;
+	}
+	#trymeet-container .bg .device{
+		display: none;
+	}
+	#trymeet-container .overview{
+		text-align: center;
+	}
+	#trymeet-container .development .process{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	#yapapp-container .bg .cs-logo{
+		top: 1%;
+		left: 25%
+	}
+	#yapapp-container .bg .bg-title{
+		top: 1%;
+		left: 40%;
+	}
+	#yapapp-container .bg .bg-text{
+		top: 18%;
+		left: 23%;
+	}
+	#yapapp-container .bg .bg-text2{
+		top: 28%;
+		left: 36%;
+	}
+	#yapapp-container .bg .apple{
+		top: 38%;
+		left: 30%;
+	}
+	#yapapp-container .bg .google{
+		top: 38%;
+		left: 60%;
+	}
+	#yapapp-container .bg .device{
+		top: 39%;
+		left: 18%
+	}
+	#vone-container .bg .cs-logo{
+		top: 1%;
+		left: 27%
+	}
+	#vone-container .bg .bg-title{
+		top: 1%;
+		left: 42%;
+	}
+	#vone-container .bg .bg-text{
+		top: 20%;
+		left: 32%;
+	}
+	#vone-container .bg .bg-text2{
+		top: 28%;
+		left: 32%;
+	}
+	#vone-container .bg .apple{
+		top: 38%;
+		left: 36%;
+	}
+	#vone-container .bg .google{
+		top: 38%;
+		left: 54%;
+	}
+	#vone-container .bg .device{
+		top: 39%;
+		left: 23%
+	}
+	#kitkeys-container .bg .cs-logo{
+		top: 1%;
+		left: 16%
+	}
+	#kitkeys-container .bg .bg-title{
+		top: 1%;
+		left: 40%;
+	}
+	#kitkeys-container .bg .bg-text{
+		top: 18%;
+		left: 23%;
+	}
+	#kitkeys-container .bg .bg-text2{
+		top: 28%;
+		left: 37%;
+	}
+	#kitkeys-container .bg .apple{
+		top: 38%;
+		left: 43%;
+	}
+	#kitkeys-container .bg .device{
+		top: 39%;
+		left: 17%
+	}
+	.container-project .project-line .project{
+		width: 100%;
+	}
+	#trymeet-container .development{
+		width: 500px;
+		height: 900px;
+		display: grid;
+		margin: auto;
+		background-color: red;
+	}
+	#trymeet-container .development .process{
+		background-color: grey;
+		width: 500px;
+	}
+}
+*/
